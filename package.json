@@ -1,0 +1,18 @@
+{
+	"name": "Celebroid",
+	"description": "A prototype of a behavior learner module running over Node.js",
+	"author": "StarColon Projects",
+	"email": "tao@starcolon.com",
+	"url": "http://starcolon.com/",
+	"version": "0.0.0",
+	"private": false,
+	"scripts": {
+		"start": "node Celebroid"
+	},
+	"dependencies": {
+		"express": "*",
+		"colors": "*",
+		"body-parser": ">= 1.10.0",
+		"mongoose": "*"
+	}
+}

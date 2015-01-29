@@ -1,0 +1,414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tree",
+				"treedb"
+			],
+			[
+				"serv",
+				"serverUrl"
+			],
+			[
+				"rotate",
+				"rotateLeft"
+			],
+			[
+				"bFac",
+				"bfactorChild"
+			],
+			[
+				"bfactr",
+				"bfactorChild"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"bf",
+				"bfactor"
+			],
+			[
+				"app",
+				"apply"
+			],
+			[
+				"bla",
+				"balanceFactor"
+			],
+			[
+				"Sef",
+				"SelfBalancingTree"
+			],
+			[
+				"bfa",
+				"bfactorChild"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"or",
+				"origin_bfactor"
+			],
+			[
+				"bF",
+				"bfactor"
+			],
+			[
+				"retr",
+				"retrace"
+			],
+			[
+				"balance",
+				"balanceFactor"
+			],
+			[
+				"node",
+				"nodeFunc"
+			],
+			[
+				"AVL",
+				"AVLTree"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"S",
+				"SelfBalanceTree"
+			],
+			[
+				"htt",
+				"httpReset"
+			],
+			[
+				"remov",
+				"removeRightBranch"
+			],
+			[
+				"Binary",
+				"BinaryTree"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"http",
+				"httpPush"
+			],
+			[
+				"rot",
+				"rotateRight"
+			],
+			[
+				"remove",
+				"removeLeftBranch"
+			],
+			[
+				"left",
+				"leftBranch"
+			],
+			[
+				"is",
+				"isRightBranchEmpty"
+			],
+			[
+				"lef",
+				"leftBranch"
+			],
+			[
+				"new",
+				"newTree"
+			],
+			[
+				"to",
+				"toArray"
+			],
+			[
+				"ri",
+				"rightBranch"
+			],
+			[
+				"riht",
+				"right"
+			],
+			[
+				"Sl",
+				"SelfBalancingTree"
+			],
+			[
+				"Self",
+				"SelfBalancingTree"
+			],
+			[
+				"self",
+				"selfbalancetree"
+			],
+			[
+				"Sel",
+				"SelfBalancingTree"
+			],
+			[
+				"isrigh",
+				"isRightBranchEmpty"
+			],
+			[
+				"right",
+				"rightBranch"
+			],
+			[
+				"rightOf",
+				"rightOfRight"
+			],
+			[
+				"le",
+				"isLeaveNode"
+			],
+			[
+				"Binar",
+				"BinaryTree"
+			],
+			[
+				"isrig",
+				"isRightBranchEqual"
+			],
+			[
+				"Bn",
+				"BinaryTree"
+			],
+			[
+				"add",
+				"addLeave"
+			],
+			[
+				"dept",
+				"depthRight"
+			],
+			[
+				"isle",
+				"isLeftBranchEmpty"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"Bi",
+				"BinaryTree"
+			],
+			[
+				"isL",
+				"isLeftBranchEmpty"
+			],
+			[
+				"binary",
+				"binarytree"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"bot",
+				"botDelete"
+			],
+			[
+				"Spe",
+				"speakbot"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"bo",
+				"bodyParser"
+			],
+			[
+				"recv",
+				"received"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"re",
+				"resp"
+			],
+			[
+				"bina",
+				"bindApp42"
+			],
+			[
+				"reques",
+				"requestCounter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pataoengineer/Sites/MyToyStore/Dendrite/lib/tree-db.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Spine/Spine/app/views/layouts/application.html.erb",
+		"/Users/pataoengineer/Sites/3rdParty/mozilla/aurora/.mozconfig",
+		"/private/etc/paths",
+		"/private/etc/launchd.conf",
+		"/Users/pataoengineer/Library/AWS/EB/eb/macosx/python2.7/etc/paths",
+		"/Users/pataoengineer/Downloads/nodejs-secondsample/app.js",
+		"/Users/pataoengineer/Sites/3rdParty/jquery/jquery/README.md",
+		"/Users/pataoengineer/Sites/3rdParty/jquery/jquery/src/jquery.js",
+		"/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".left",
+			"toarr",
+			");",
+			"rotateLeft",
+			"SCTree.",
+			"addLeave",
+			"removeBranch",
+			"addLeave",
+			"branchequal",
+			"righttBranchEqual",
+			"leftBranchEqual",
+			"rightLeave",
+			"leftLeave",
+			"qqqqqqq"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rotateRight",
+			"",
+			"add",
+			"remove",
+			"add",
+			"isRighttBranchEqual",
+			"isLeftBranchEqual",
+			"rightBranch",
+			"leftBranch"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false
+}
