@@ -1,0 +1,14 @@
+//-------------------------------------------------
+//  Smarter Array
+//  Developed & managed by StarColon Projects
+//  Aimed to be utilized with [node.js] app
+//  EST: Janurary 2015
+//      http://starcolon.com/
+//-------------------------------------------------
+
+
+Array.prototype.addOrReplace = function(elem,key){
+	// Add a pair element to the array
+	// if the key already exists, it replaces the old one
+	
+}

@@ -48,13 +48,6 @@
 });
 
 
-
-function loadLessons(){
-
-}
-
-
-
 function configServer(app,bodyParser){
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({ extended: false }));
@@ -71,15 +64,7 @@ function configServer(app,bodyParser){
 
 
 function httpAddLesson(req,resp,next){
-	// Encapsulate the input format
-	var lesson = {
-		label: req._label,
-		state: req._state,
-		nextState: req._nextState,
-		p: req._p
-	};
-
-
+	
 
 }
 
