@@ -13,6 +13,7 @@
 		"express": "*",
 		"colors": "*",
 		"body-parser": ">= 1.10.0",
-		"mongoose": "*"
+		"mongoose": "*",
+		"mathjs": "*"
 	}
 }
