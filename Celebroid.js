@@ -12,19 +12,23 @@
 
 (function loop(config){
 
+
 	// Initialize the dependencies
 	var app = require('express')();
 	var colors = require('colors');
 	var bodyParser = require('body-parser');
 	var avlTree = require('./lib/avltree.js');
-	var db = require('mongoose');
+	var mentor = require('./lib/mentor.js');
 
 	// Initialize the server model
 	configServer(app,bodyParser);
 
 	// Map REST verbs
-	app.put('/lesson/add/:v', httpAddLesson);
+	app.get('/lesson/add/:v', httpAddLesson); // TAOTODO: On production, this should be [PUT]
 	app.get('/lesson/ls/', httpLsLesson);
+
+	// Load the current state of the lessons to the memory
+	mentor.recall();
 
 
 	// Run the server listen loop
@@ -43,6 +47,11 @@
 	port: 4096
 });
 
+
+
+function loadLessons(){
+
+}
 
 
 
