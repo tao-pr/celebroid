@@ -17,8 +17,9 @@
 	var app = require('express')();
 	var colors = require('colors');
 	var bodyParser = require('body-parser');
-	var avlTree = require('./lib/avltree.js');
 	var mentor = require('./lib/mentor.js');
+
+	var myMentor = new mentor.mentor(config.dbName,config.dbCollectionName);
 
 	// Initialize the server model
 	configServer(app,bodyParser);
@@ -28,7 +29,7 @@
 	app.get('/lesson/ls/', httpLsLesson);
 
 	// Load the current state of the lessons to the memory
-	mentor.recall();
+	myMentor.recall();
 
 
 	// Run the server listen loop
@@ -44,7 +45,9 @@
 	});
 
 })({
-	port: 4096
+	port: 4096,
+	dbName: 'test',
+	dbCollectionName: 'celebroid-lessons'
 });
 
 
