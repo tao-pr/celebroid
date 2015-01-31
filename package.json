@@ -12,6 +12,8 @@
 	"dependencies": {
 		"express": "*",
 		"colors": "*",
+		"jade": "*",
+		"fs": "*",
 		"body-parser": ">= 1.10.0",
 		"mongoose": "*",
 		"mathjs": "*",
