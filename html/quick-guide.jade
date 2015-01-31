@@ -6,13 +6,25 @@ ul
 	li
 		b
 			= projecturl
-		span ==> Display quick guide
+		span  ==> Display quick guide
 	li
 		b
-			= projecturl + 'lesson/add'
-		span ==> Add a new lesson
+			= projecturl + 'label/add/#label,#label,#label'
+		span  ==> Add a new label of observed status
+	li
+		b
+			= projecturl + 'state/add/#state/#prob'
+		span  ==> Add a new hidden state
+	li
+		b
+			= projecturl + 'state/emission'
+		span  ==> Add an emission of a state
+	li
+		b
+			= projecturl + 'state/transition'
+		span  ==> Add a transition of a state
 	li
 		b
 			= projecturl + 'lesson/ls'
-		span ==> List the stored lessons
+		span  ==> List the stored lessons
 
