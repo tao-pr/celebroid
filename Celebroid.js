@@ -73,6 +73,12 @@ function configServer(app,bodyParser){
 		return next();
 	});
 
+	app.param('w',function(req,resp,next,w){
+		// Parameter [w] must be an object identifier
+		req.w = w;
+		return next();
+	});
+
 	app.param('p',function(req,resp,next,p){
 		// parameter [p] must be double 
 		req.p = parseFloat(p);
@@ -81,10 +87,10 @@ function configServer(app,bodyParser){
  
 	// Map REST verbs
 	app.get('/', httpShowGuide);
-	app.get('/lesson/label/add/:v', httpAddLabel);
-	app.get('/lesson/state/add/:v/:p', httpAddState);
-	app.get('/lesson/state/emission/:v', httpAddEmission);
-	app.get('/lessson/state/transition/:v', httpAddTransition);
+	app.get('/lesson/label/:v', httpAddLabel);
+	app.get('/lesson/state/:v/:p', httpAddState);
+	app.get('/lesson/state/:v/:w/:p', httpAddEmission);
+	app.get('/lesson/state/:v/to/:w/:p', httpAddTransition);
 	app.get('/lesson/ls/', httpLsLesson);
 }
 
@@ -128,8 +134,13 @@ function httpAddState(req,resp,next){
 
 function httpAddEmission(req,resp,next){
 	console.log('Set emission :'.green);
-	console.log(req.v);
-	myMentor.setEmission(req.v);
+	var emission = {
+		label: req.w,
+		p: req.p
+	};
+
+	console.log(emission);
+	myMentor.setEmission(req.v, emission);
 
 	// Display the result
 	return httpLsLesson(req,resp,next);
@@ -138,8 +149,14 @@ function httpAddEmission(req,resp,next){
 
 function httpAddTransition(req,resp,next){
 	console.log('Set transition :'.green);
-	console.log(req.v);
-	myMentor.setTransition(req.v);
+	var trans = {
+		from: req.v,
+		to: req.w,
+		p: req.p
+	};
+
+	console.log(trans);
+	myMentor.setTransition(trans);
 
 	// Display the result
 	return httpLsLesson(req,resp,next);
