@@ -92,6 +92,8 @@ function configServer(app,bodyParser){
 	app.get('/lesson/state/:v/:w/:p', httpAddEmission);
 	app.get('/lesson/state/:v/to/:w/:p', httpAddTransition);
 	app.get('/lesson/ls/', httpLsLesson);
+	app.get('/lesson/verify/', httpVerify);
+	app.get('/course/compile', httpCompile);
 }
 
 
@@ -162,6 +164,28 @@ function httpAddTransition(req,resp,next){
 	return httpLsLesson(req,resp,next);
 }
 
+
+function httpCompile(req,resp,next){
+	console.log('Compile the course!'.cyan);
+	// TAOTODO:
+}
+
+
+function httpVerify(req,resp,next){
+	// Verify the lessons
+	var isPassed = myMentor.verifyLessons(function(msg){
+		console.log(msg.toString().red);
+	});
+
+	if (isPassed){
+		var template = 'span(style="color:green") Lessons verified';
+		resp.send(jade.compile(template)());
+	}
+	else{
+		var template = 'span(style="color:red") Lessons illegal - see console log';
+		resp.send(jade.compile(template)());
+	}
+}	
 
 function httpLsLesson(req,resp,next){
 	// Print out the lesson
