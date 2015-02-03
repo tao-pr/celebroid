@@ -4,6 +4,146 @@
 		"selected_items":
 		[
 			[
+				"less",
+				"lesson"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"Lesson",
+				"LessonModel"
+			],
+			[
+				"lessons",
+				"lessons"
+			],
+			[
+				"init",
+				"initDatabase"
+			],
+			[
+				"Less",
+				"LessonModel"
+			],
+			[
+				"sta",
+				"stateSchema"
+			],
+			[
+				"lesso",
+				"lesson"
+			],
+			[
+				"coll",
+				"collectionName"
+			],
+			[
+				"roo",
+				"roomNo"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"ob",
+				"obs"
+			],
+			[
+				"sumof",
+				"sumOfObs"
+			],
+			[
+				"sum",
+				"sumOfTrans"
+			],
+			[
+				"lesson",
+				"lessons"
+			],
+			[
+				"verif",
+				"Verify"
+			],
+			[
+				"key",
+				"keyname"
+			],
+			[
+				"w",
+				"when"
+			],
+			[
+				"htt",
+				"httpLsLesson"
+			],
+			[
+				"cns",
+				"console"
+			],
+			[
+				"http",
+				"httpAddLesson"
+			],
+			[
+				"app",
+				"app"
+			],
+			[
+				"db",
+				"dbCollectionName"
+			],
+			[
+				"br",
+				"BreakException"
+			],
+			[
+				"Break",
+				"BreakException"
+			],
+			[
+				"les",
+				"lessons"
+			],
+			[
+				"set",
+				"setLabels"
+			],
+			[
+				"add",
+				"addOrUpdate"
+			],
+			[
+				"ad",
+				"addTransition"
+			],
+			[
+				"ems",
+				"emission"
+			],
+			[
+				"emiss",
+				"emission"
+			],
+			[
+				"ele",
+				"elem"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"lb",
+				"label"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
 				"tree",
 				"treedb"
 			],
@@ -30,10 +170,6 @@
 			[
 				"bf",
 				"bfactor"
-			],
-			[
-				"app",
-				"apply"
 			],
 			[
 				"bla",
@@ -84,10 +220,6 @@
 				"SelfBalanceTree"
 			],
 			[
-				"htt",
-				"httpReset"
-			],
-			[
 				"remov",
 				"removeRightBranch"
 			],
@@ -98,10 +230,6 @@
 			[
 				"fu",
 				"function"
-			],
-			[
-				"http",
-				"httpPush"
 			],
 			[
 				"rot",
@@ -126,10 +254,6 @@
 			[
 				"new",
 				"newTree"
-			],
-			[
-				"to",
-				"toArray"
 			],
 			[
 				"ri",
@@ -182,10 +306,6 @@
 			[
 				"Bn",
 				"BinaryTree"
-			],
-			[
-				"add",
-				"addLeave"
 			],
 			[
 				"dept",
@@ -255,6 +375,55 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/pataoengineer/Sites/3rdParty/hmm/hmm/README.md",
+			"settings":
+			{
+				"buffer_size": 3601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Celebroid.js",
+			"settings":
+			{
+				"buffer_size": 5000,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/mentor.js",
+			"settings":
+			{
+				"buffer_size": 7884,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/smart-array.js",
+			"settings":
+			{
+				"buffer_size": 1226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/quick-guide.jade",
+			"settings":
+			{
+				"buffer_size": 743,
+				"line_ending": "Unix",
+				"name": "html"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -280,6 +449,15 @@
 	},
 	"file_history":
 	[
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/.gitignore",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/lib/hmm/hmm.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/lib/hmm/hmm_utils.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/lib/hmm/hmm_matrices.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Dendrite/lib/mentor.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Dendrite/Celebroid.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/lib/hmm/train.js",
+		"/Users/pataoengineer/Sites/3rdParty/hmm/HMM/hmm.txt",
+		"/Users/pataoengineer/Sites/3rdParty/hmm/HMM/words.txt",
 		"/Users/pataoengineer/Sites/MyToyStore/Dendrite/lib/tree-db.js",
 		"/Users/pataoengineer/Sites/MyToyStore/Spine/Spine/app/views/layouts/application.html.erb",
 		"/Users/pataoengineer/Sites/3rdParty/mozilla/aurora/.mozconfig",
@@ -348,8 +526,170 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/pataoengineer/Sites/3rdParty/hmm/hmm/README.md",
+					"settings":
+					{
+						"buffer_size": 3601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								929,
+								929
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 350.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Celebroid.js",
+					"settings":
+					{
+						"buffer_size": 5000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								952,
+								952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 213.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/mentor.js",
+					"settings":
+					{
+						"buffer_size": 7884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1388,
+								1388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5765.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/smart-array.js",
+					"settings":
+					{
+						"buffer_size": 1226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1068,
+								1068
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 425.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "html/quick-guide.jade",
+					"settings":
+					{
+						"buffer_size": 743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"auto_name": "html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

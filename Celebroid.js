@@ -30,10 +30,6 @@ var mentor = require('./lib/mentor.js');
 	// Initialize the server model
 	configServer(app,bodyParser);
 
-	// Load the current state of the lessons to the memory
-	myMentor.recall();
-
-
 	// Run the server listen loop
 	var server = app.listen(config.port, function(){
 		var host = server.address().address;
@@ -92,6 +88,7 @@ function configServer(app,bodyParser){
 	app.get('/lesson/state/:v/:w/:p', httpAddEmission);
 	app.get('/lesson/state/:v/to/:w/:p', httpAddTransition);
 	app.get('/lesson/ls/', httpLsLesson);
+	app.get('/lesson/save/', httpSave);
 	app.get('/lesson/verify/', httpVerify);
 	app.get('/course/compile', httpCompile);
 }
@@ -186,6 +183,19 @@ function httpVerify(req,resp,next){
 		resp.send(jade.compile(template)());
 	}
 }	
+
+
+function httpSave(req,resp,next){
+	// Save the lessons to the database
+	if (!myMentor.save()){
+		var template = 'span(style="color:red") Lessons save failed - see console log';
+		resp.send(jade.compile(template)());
+	}
+	else{
+		resp.send('Lessons saved!');
+	}
+}
+
 
 function httpLsLesson(req,resp,next){
 	// Print out the lesson
