@@ -46,7 +46,7 @@ var mentor = require('./lib/mentor.js');
 })({
 	port: 4096,
 	dbName: 'test',
-	dbCollectionName: 'celebroid-lessons'
+	dbCollectionName: 'celebroid_lessons'
 });
 
 
@@ -164,7 +164,7 @@ function httpAddTransition(req,resp,next){
 
 function httpCompile(req,resp,next){
 	console.log('Compile the course!'.cyan);
-	// TAOTODO:
+	// TAOTODO: Compile the HMM from the stored lessons
 }
 
 
