@@ -138,7 +138,6 @@ function httpAddEmission(req,resp,next){
 		p: req.p
 	};
 
-	console.log(emission);
 	myMentor.setEmission(req.v, emission);
 
 	// Display the result
@@ -154,7 +153,6 @@ function httpAddTransition(req,resp,next){
 		p: req.p
 	};
 
-	console.log(trans);
 	myMentor.setTransition(trans);
 
 	// Display the result
