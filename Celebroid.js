@@ -162,7 +162,9 @@ function httpAddTransition(req,resp,next){
 
 function httpCompile(req,resp,next){
 	console.log('Compile the course!'.cyan);
-	// TAOTODO: Compile the HMM from the stored lessons
+	myMentor.learn();
+
+	resp.send('Model compiled!');
 }
 
 
