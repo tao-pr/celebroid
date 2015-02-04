@@ -90,7 +90,7 @@ function configServer(app,bodyParser){
 	app.get('/lesson/ls/', httpLsLesson);
 	app.get('/lesson/save/', httpSave);
 	app.get('/lesson/verify/', httpVerify);
-	app.get('/course/compile', httpCompile);
+	app.get('/lesson/compile', httpCompile);
 }
 
 

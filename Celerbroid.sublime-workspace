@@ -5,7 +5,75 @@
 		[
 			[
 				"less",
-				"lesson"
+				"lessons"
+			],
+			[
+				"tra",
+				"transObj"
+			],
+			[
+				"_",
+				"_MENTOR_RESERVED_KEY"
+			],
+			[
+				"emi",
+				"emissObj"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"state",
+				"state"
+			],
+			[
+				"tran",
+				"transitions"
+			],
+			[
+				"emiss",
+				"emissions"
+			],
+			[
+				"em",
+				"emissions"
+			],
+			[
+				"transi",
+				"transitions"
+			],
+			[
+				"init",
+				"initialProbs"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"lesso",
+				"lessons"
+			],
+			[
+				"_M",
+				"_MENTOR_RESERVED_KEY"
+			],
+			[
+				"stat",
+				"stateSchema"
+			],
+			[
+				"states",
+				"states"
+			],
+			[
+				"Leso",
+				"LessonModel"
 			],
 			[
 				"sel",
@@ -20,20 +88,12 @@
 				"lessons"
 			],
 			[
-				"init",
-				"initDatabase"
-			],
-			[
 				"Less",
 				"LessonModel"
 			],
 			[
 				"sta",
 				"stateSchema"
-			],
-			[
-				"lesso",
-				"lesson"
 			],
 			[
 				"coll",
@@ -121,10 +181,6 @@
 			],
 			[
 				"ems",
-				"emission"
-			],
-			[
-				"emiss",
 				"emission"
 			],
 			[
@@ -395,7 +451,7 @@
 			"file": "Celebroid.js",
 			"settings":
 			{
-				"buffer_size": 5000,
+				"buffer_size": 4917,
 				"line_ending": "Unix"
 			}
 		},
@@ -403,7 +459,15 @@
 			"file": "lib/mentor.js",
 			"settings":
 			{
-				"buffer_size": 7884,
+				"buffer_size": 10646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 206,
 				"line_ending": "Unix"
 			}
 		},
@@ -486,6 +550,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"compile",
+			"taoto",
+			".showle",
+			"n showless",
+			".verify",
+			"taotodo",
+			"setemis",
+			"set emiss",
+			".save",
+			"httpsav",
 			".left",
 			"toarr",
 			");",
@@ -578,7 +652,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 350.0,
+						"translation.y": 193.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -588,15 +662,15 @@
 					"file": "Celebroid.js",
 					"settings":
 					{
-						"buffer_size": 5000,
+						"buffer_size": 4917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								952,
-								952
+								4103,
+								4103
 							]
 						],
 						"settings":
@@ -605,7 +679,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 213.0,
+						"translation.y": 2879.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -615,15 +689,15 @@
 					"file": "lib/mentor.js",
 					"settings":
 					{
-						"buffer_size": 7884,
+						"buffer_size": 10646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1388,
-								1388
+								3807,
+								3807
 							]
 						],
 						"settings":
@@ -632,13 +706,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5765.0,
+						"translation.y": 4300.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "lib/smart-array.js",
 					"settings":
 					{
@@ -655,16 +755,17 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 425.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "html/quick-guide.jade",
 					"settings":
 					{
@@ -682,10 +783,11 @@
 						"settings":
 						{
 							"auto_name": "html",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
