@@ -197,7 +197,7 @@ function httpSave(req,resp,next){
 
 function httpLsLesson(req,resp,next){
 	// Print out the lesson
-	myMentor.showLessons();
-	resp.send(JSON.stringify(myMentor.lessons));
+	var output = myMentor.showLessons().join('<br/>');
+	resp.send(output);
 }
 
