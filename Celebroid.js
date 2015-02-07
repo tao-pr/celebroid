@@ -91,6 +91,7 @@ function configServer(app,bodyParser){
 	app.get('/lesson/save/', httpSave);
 	app.get('/lesson/verify/', httpVerify);
 	app.get('/lesson/compile', httpCompile);
+	app.get('/predict/:w', httpPredict);
 }
 
 
@@ -194,6 +195,13 @@ function httpSave(req,resp,next){
 	else{
 		resp.send('Lessons saved!');
 	}
+}
+
+function httpPredict(req,resp,next){
+	var chainOfLabels = req.w.split(',');
+	var result = myMentor.predict(chainOfLabels);
+
+	resp.send('Result: ' + result.join(' ==> '));
 }
 
 
