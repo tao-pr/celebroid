@@ -92,6 +92,7 @@ function configServer(app,bodyParser){
 	app.get('/lesson/verify/', httpVerify);
 	app.get('/lesson/compile', httpCompile);
 	app.get('/predict/:w', httpPredict);
+	app.get('/test/',httpTest);
 }
 
 
@@ -209,5 +210,10 @@ function httpLsLesson(req,resp,next){
 	// Print out the lesson
 	var output = myMentor.showLessons().join('<br/>');
 	resp.send(output);
+}
+
+function httpTest(req,resp,next){
+	// Test the hiddent markov model
+	myMentor.testHMM();
 }
 
