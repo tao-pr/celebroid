@@ -40,6 +40,7 @@ var mentor = require('./lib/mentor.js');
 		console.log(('      '+appName.toUpperCase()+' starts!').toString().cyan );
 		console.log('      listening carefully at:'.cyan + (host + ':' + port).toString().green );
 		console.log('****************************************************'.cyan);
+		console.log('   arguments = '.cyan + getArgs().yellow);
 		console.log('');
 	});
 
@@ -95,6 +96,11 @@ function configServer(app,bodyParser){
 	app.get('/test/',httpTest);
 }
 
+
+function getArgs(){
+	// The first two arguments are omitted because the form is "node Celebroid --something --yeah"
+	return process.argv.splice(0,2);
+}
 
 
 function httpShowGuide(req,resp,next){
