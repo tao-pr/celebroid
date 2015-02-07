@@ -5,7 +5,7 @@
 		[
 			[
 				"less",
-				"lessons"
+				"lesson"
 			],
 			[
 				"tra",
@@ -467,7 +467,7 @@
 			"file": "/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 206,
+				"buffer_size": 254,
 				"line_ending": "Unix"
 			}
 		},
@@ -615,8 +615,8 @@
 						"selection":
 						[
 							[
-								369,
-								369
+								1,
+								1
 							]
 						],
 						"settings":
@@ -669,8 +669,8 @@
 						"selection":
 						[
 							[
-								4103,
-								4103
+								2640,
+								2640
 							]
 						],
 						"settings":
@@ -679,7 +679,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2879.0,
+						"translation.y": 1321.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -696,8 +696,8 @@
 						"selection":
 						[
 							[
-								3807,
-								3807
+								9258,
+								9258
 							]
 						],
 						"settings":
@@ -706,7 +706,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4300.0,
+						"translation.y": 6511.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -716,15 +716,15 @@
 					"file": "/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								227,
+								227
 							]
 						],
 						"settings":
@@ -749,8 +749,8 @@
 						"selection":
 						[
 							[
-								1068,
-								1068
+								685,
+								685
 							]
 						],
 						"settings":
@@ -759,7 +759,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 371.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -776,8 +776,8 @@
 						"selection":
 						[
 							[
-								741,
-								741
+								474,
+								474
 							]
 						],
 						"settings":
@@ -787,7 +787,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 29.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
