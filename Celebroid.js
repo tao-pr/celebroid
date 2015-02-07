@@ -199,7 +199,7 @@ function httpSave(req,resp,next){
 
 function httpPredict(req,resp,next){
 	var chainOfLabels = req.w.split(',');
-	var result = myMentor.predict(chainOfLabels);
+	var result = myMentor.predictLabel(chainOfLabels);
 
 	resp.send('Result: ' + result.join(' ==> '));
 }
