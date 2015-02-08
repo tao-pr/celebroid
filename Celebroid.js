@@ -99,6 +99,7 @@ function configServer(app,bodyParser){
 
 function getArgs(){
 	// The first two arguments are omitted because the form is "node Celebroid --something --yeah"
+	// TAONOTE: This is not yet working, it returns `undefined`
 	return process.argv.splice(0,2);
 }
 
