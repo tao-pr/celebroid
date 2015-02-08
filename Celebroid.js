@@ -222,5 +222,6 @@ function httpLsLesson(req,resp,next){
 function httpTest(req,resp,next){
 	// Test the hiddent markov model
 	myMentor.testHMM();
+	resp.send('see log for test results');
 }
 
