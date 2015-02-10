@@ -18,6 +18,7 @@
 		"mongoose": "*",
 		"mathjs": "*",
 		"hmm": "*",
-		"matrixjs": "*"
+		"matrixjs": "*",
+		"mocha": "*"
 	}
 }
