@@ -24,8 +24,11 @@ var mentor = require('./lib/mentor.js');
 
 
 (function loop(config){
-	// Initializ the mentor object
-	myMentor = new mentor.mentor(config.dbName,config.dbCollectionName);
+	// Initialize the mentor object
+	var done = function(){
+		console.log('Database successfully loaded'.yellow);
+	}
+	myMentor = new mentor.mentor(config.dbName,config.dbCollectionName,done);
 
 	// Initialize the server model
 	configServer(app,bodyParser);

@@ -12,12 +12,15 @@ var hasProperty = function(prop){
 // TEST KIT STARTS HERE ==========================================
 describe('@MENTOR TEST', function(){
   var mentor = require('../lib/mentor.js');
-  var _mentor = new mentor.mentor('test','celebroid_test');
+  var _mentor = {};
+  before(function(done){
+    _mentor = new mentor.mentor('test','celebroid_test',done);
+  });
 
   describe('After Mentor creation',function(){
-    it('should have empty lessons array',function(done){
-      assert.equal(typeof(_mentor.lessons),'object');
-      assert.equal(_mentor.lessons.length,0);
+    it('should have lessons object initialized',function(done){
+      assert.equal('object', typeof(_mentor.lessons.states));
+      assert.equal('object',typeof(_mentor.lessons.labels))
       done();
     });
 
@@ -30,12 +33,6 @@ describe('@MENTOR TEST', function(){
     it('should have [db] defined',function(done){
       var hasDB = hasProperty.apply(_mentor,['db']);
       assert.equal(true, hasDB);
-      done();
-    });
-
-    it('should have [hmm] defined',function(done){
-      var hasHMM = hasProperty.apply(_mentor,['hmm']);
-      assert.equal(true, hasHMM);
       done();
     });
 
