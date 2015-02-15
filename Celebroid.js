@@ -210,7 +210,7 @@ function httpSave(req,resp,next){
 
 function httpPredict(req,resp,next){
 	var chainOfLabels = req.w.split(',');
-	var result = myMentor.predictLabel(chainOfLabels);
+	var result = myMentor.predictFromLabels(chainOfLabels);
 
 	resp.send('Result: ' + result.states.join(' ==> ') + ' of conficdence level of ' + (result.p*100).toFixed(3) + ' %');
 }
