@@ -20,5 +20,8 @@
 		"hmm": "*",
 		"matrixjs": "*",
 		"mocha": "*"
+	},
+	"scripts": {
+  		"test": "mocha test"
 	}
 }

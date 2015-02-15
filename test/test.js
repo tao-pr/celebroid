@@ -1,9 +1,7 @@
-var mentorLib = require('../lib/mentor.js');
 
-describe('mentor', function(){
-  console.log(mentorLib);
-  var _mentor = new mentorLib.mentor('test','celebroid_test');
-
+describe('@MENTOR TEST', function(){
+  var mentor = require('../lib/mentor.js');
+  var _mentor = new mentor.mentor('test','celebroid_test');
 
   // Prepare the initial lessons
   _mentor.setLabels(['win','draw','loss']);
@@ -44,6 +42,13 @@ describe('mentor', function(){
   _mentor.setEmission('defending',{label:'draw', p:0.6});
   _mentor.setEmission('defending',{label:'loss', p:0.3});
 
+  // Post-test
+  describe("After lessons assignment", function(){
+    it("should has lessons pre-initialized",function(){
+      _mentor.showLessons().length.should.equal(0);
+    });
+  });
+
 
   // Prepare the lessons before testing
   beforeEach(function(done){
@@ -56,7 +61,7 @@ describe('mentor', function(){
       _mentor.verify().should.equal(true);
     });
 
-    it('Compile the model should pass',function(done){
+    it('Compile the model should pass without errors',function(done){
       _mentor.learn().should.not.throw();
     });
   })
