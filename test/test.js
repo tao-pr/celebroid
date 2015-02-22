@@ -121,6 +121,11 @@ describe('@GRAPH TEST', function(){
       _graph.addNode('sea').addNode('boat').addNode('boat');
       assert.equal(_graph.size(),2);
       done();
+    });
+
+    it('given a node, it should return that node', function(done){
+      assert.deepEqual(_graph.node('boat'),_graph.given('boat'));
+      done();
     })
   })
 
