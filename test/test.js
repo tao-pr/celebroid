@@ -93,9 +93,37 @@ describe('@MENTOR TEST', function(){
 });
 
 
-// BAYESIAN TEST KIT STARTS HERE ========================================
-describe('@BAYES TEST', function(){
-  // TAOTODO: Compose the test kit
+// GRAPH TEST KIT STARTS HERE ========================================
+describe('@GRAPH TEST', function(){
+  var graph = require('../lib/graph.js');
+  var _graph = new graph.graph();
+  before(function(done){
+    // Initialize any delayed-load modules or data
+
+    done();
+  });
+
+  describe('Fundamental graph use tests',function(){
+
+    it('should add a node to the graph',function(done){
+      _graph.addNode('apple');
+      assert.equal(_graph.node('apple').name,'apple');
+      done();
+    });
+
+    it('should remove a node from the graph',function(done){
+      _graph.removeNode('apple');
+      assert.equal(_graph.node('apple'),null);
+      done();
+    });
+
+    it('should not allow duplicate node addition', function(done){
+      _graph.addNode('sea').addNode('boat').addNode('boat');
+      assert.equal(_graph.size(),2);
+      done();
+    })
+  })
+
 })
 
 function prepareLessons(){
