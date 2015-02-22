@@ -95,7 +95,7 @@ describe('@MENTOR TEST', function(){
 
 // BAYESIAN TEST KIT STARTS HERE ========================================
 describe('@BAYES TEST', function(){
-
+  // TAOTODO: Compose the test kit
 })
 
 function prepareLessons(){
