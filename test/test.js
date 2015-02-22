@@ -9,7 +9,7 @@ var hasProperty = function(prop){
 }
 
 
-// TEST KIT STARTS HERE ==========================================
+// MENTOR TEST KIT STARTS HERE ==========================================
 describe('@MENTOR TEST', function(){
   var mentor = require('../lib/mentor.js');
   var _mentor = {};
@@ -39,6 +39,9 @@ describe('@MENTOR TEST', function(){
     after(function(done){
       // Prepare the initial lessons
       prepareLessons.apply(_mentor);
+      // Display the lessons
+      console.log('Now test lessons have been initialized.');
+      console.log(_mentor.showLessons());
       done();
     })
   });
@@ -89,6 +92,11 @@ describe('@MENTOR TEST', function(){
   });
 });
 
+
+// BAYESIAN TEST KIT STARTS HERE ========================================
+describe('@BAYES TEST', function(){
+
+})
 
 function prepareLessons(){
   this.setLabels(['win','draw','loss']);
