@@ -126,6 +126,14 @@ describe('@GRAPH TEST', function(){
     it('given a node, it should return that node', function(done){
       assert.deepEqual(_graph.node('boat'),_graph.given('boat'));
       done();
+    });
+
+    it('should set the probability of a node and reads back correctly', function(done){
+      _graph.node('boat').probability(0.5);
+      _graph.node('sea').probability(0.75);
+      assert.equal(_graph.node('boat').probability(), 0.5);
+      assert.equal(_graph.node('sea').probability(), 0.75);
+      done();
     })
   })
 
