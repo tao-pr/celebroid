@@ -7,7 +7,8 @@
 	"version": "0.0.0",
 	"private": false,
 	"scripts": {
-		"start": "node Celebroid"
+		"start": "node Celebroid",
+		"test": "mocha test"
 	},
 	"dependencies": {
 		"express": "*",
@@ -20,8 +21,5 @@
 		"hmm": "*",
 		"matrixjs": "*",
 		"mocha": "*"
-	},
-	"scripts": {
-  		"test": "mocha test"
 	}
 }
