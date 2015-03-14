@@ -4,6 +4,10 @@
 	"author": "StarColon Projects",
 	"email": "tao@starcolon.com",
 	"url": "http://starcolon.com/",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/starcolon/celebroid.git"
+	},
 	"version": "0.0.0",
 	"private": false,
 	"scripts": {
@@ -21,6 +25,6 @@
 		"hmm": "*",
 		"matrixjs": "*",
 		"mocha": "*",
-		"mongodb", "1.4.28"
+		"mongodb": "1.4.28"
 	}
 }
