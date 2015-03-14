@@ -16,10 +16,11 @@
 		"jade": "*",
 		"fs": "*",
 		"body-parser": ">= 1.10.0",
-		"mongoose": "*",
+		"mongoose": "3.8.22",
 		"mathjs": "*",
 		"hmm": "*",
 		"matrixjs": "*",
-		"mocha": "*"
+		"mocha": "*",
+		"mongodb", "1.4.28"
 	}
 }
