@@ -10,8 +10,9 @@
 */
 
 var myMentor = {};
-const appVersion = 0.0001;
-const appName = 'Celebroid';
+var package_json = require('./package.json')
+const appVersion = package_json.version;
+const appName = package_json.name;
 var serviceUrl = ''; // To be assigned run-time when server starts
 
 // Initialize project dependencies
