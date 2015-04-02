@@ -1,30 +1,31 @@
 {
-	"name": "Celebroid",
-	"description": "A prototype of a behavior learner module running over Node.js",
-	"author": "StarColon Projects",
-	"email": "tao@starcolon.com",
-	"url": "http://starcolon.com/",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/starcolon/celebroid.git"
-	},
-	"version": "0.1.0",
-	"private": false,
-	"scripts": {
-		"start": "node Celebroid",
-		"test": "mocha test"
-	},
-	"dependencies": {
-		"express": "*",
-		"colors": "*",
-		"jade": "*",
-		"fs": "*",
-		"body-parser": ">= 1.10.0",
-		"mongoose": "3.8.22",
-		"mathjs": "*",
-		"hmm": "*",
-		"matrixjs": "1.0.2",
-		"mocha": "*",
-		"mongodb": "1.4.28"
-	}
+  "name": "Celebroid",
+  "description": "A prototype of a behavior learner module running over Node.js",
+  "author": "StarColon Projects",
+  "email": "tao@starcolon.com",
+  "url": "http://starcolon.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/starcolon/celebroid.git"
+  },
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "start": "node Celebroid",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "body-parser": ">= 1.10.0",
+    "colors": "*",
+    "express": "*",
+    "fs": "*",
+    "hmm": "*",
+    "jade": "*",
+    "mathjs": "*",
+    "matrixjs": "1.0.2",
+    "mocha": "*",
+    "mongodb": "1.4.28",
+    "mongoose": "3.8.22",
+    "mongoskin": "^1.4.13"
+  }
 }
