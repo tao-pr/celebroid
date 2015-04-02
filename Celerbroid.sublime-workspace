@@ -4,6 +4,146 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"addNode"
+			],
+			[
+				"ma",
+				"matched_node"
+			],
+			[
+				"ad",
+				"adjacency"
+			],
+			[
+				"node",
+				"nodename"
+			],
+			[
+				"ge",
+				"getNode"
+			],
+			[
+				"expor",
+				"exportJSON"
+			],
+			[
+				"pre",
+				"predictFromLabels"
+			],
+			[
+				"stt",
+				"stateChain"
+			],
+			[
+				"st",
+				"stateNames"
+			],
+			[
+				"sta",
+				"stateChain"
+			],
+			[
+				"stat",
+				"stateName"
+			],
+			[
+				"stae",
+				"states"
+			],
+			[
+				"leson",
+				"lessons"
+			],
+			[
+				"ass",
+				"assert"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pro",
+				"prop"
+			],
+			[
+				"men",
+				"mentor"
+			],
+			[
+				"ment",
+				"mentorLib"
+			],
+			[
+				"atta",
+				"attacking"
+			],
+			[
+				"before",
+				"beforeEach"
+			],
+			[
+				"less",
+				"lessons"
+			],
+			[
+				"labe",
+				"labels"
+			],
+			[
+				"hide",
+				"hidden_markov"
+			],
+			[
+				"label",
+				"labelChain"
+			],
+			[
+				"chain",
+				"labelChain"
+			],
+			[
+				"predi",
+				"predictLabel"
+			],
+			[
+				"seq",
+				"seq_optimal_names"
+			],
+			[
+				"_tes",
+				"_testSequence"
+			],
+			[
+				"tests",
+				"testStates"
+			],
+			[
+				"state",
+				"stateName"
+			],
+			[
+				"_row",
+				"_rowObserv"
+			],
+			[
+				"ap",
+				"apply"
+			],
+			[
+				"hidden",
+				"hidden_markov"
+			],
+			[
+				"learn",
+				"learnHMMLib"
+			],
+			[
 				"get",
 				"getArgs"
 			],
@@ -32,14 +172,6 @@
 				"hidden_markov"
 			],
 			[
-				"pre",
-				"predictLabel"
-			],
-			[
-				"less",
-				"lesson"
-			],
-			[
 				"tra",
 				"transObj"
 			],
@@ -54,10 +186,6 @@
 			[
 				"trans",
 				"transition"
-			],
-			[
-				"state",
-				"state"
 			],
 			[
 				"tran",
@@ -92,10 +220,6 @@
 				"_MENTOR_RESERVED_KEY"
 			],
 			[
-				"stat",
-				"stateSchema"
-			],
-			[
 				"states",
 				"states"
 			],
@@ -118,10 +242,6 @@
 			[
 				"Less",
 				"LessonModel"
-			],
-			[
-				"sta",
-				"stateSchema"
 			],
 			[
 				"coll",
@@ -194,14 +314,6 @@
 			[
 				"set",
 				"setLabels"
-			],
-			[
-				"add",
-				"addOrUpdate"
-			],
-			[
-				"ad",
-				"addTransition"
 			],
 			[
 				"ems",
@@ -282,10 +394,6 @@
 			[
 				"balance",
 				"balanceFactor"
-			],
-			[
-				"node",
-				"nodeFunc"
 			],
 			[
 				"AVL",
@@ -406,50 +514,6 @@
 			[
 				"isL",
 				"isLeftBranchEmpty"
-			],
-			[
-				"binary",
-				"binarytree"
-			],
-			[
-				"body",
-				"bodyParser"
-			],
-			[
-				"bot",
-				"botDelete"
-			],
-			[
-				"Spe",
-				"speakbot"
-			],
-			[
-				"bod",
-				"bodyParser"
-			],
-			[
-				"bo",
-				"bodyParser"
-			],
-			[
-				"recv",
-				"received"
-			],
-			[
-				"time",
-				"timestamp"
-			],
-			[
-				"re",
-				"resp"
-			],
-			[
-				"bina",
-				"bindApp42"
-			],
-			[
-				"reques",
-				"requestCounter"
 			]
 		]
 	},
@@ -459,15 +523,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 458,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/pataoengineer/Sites/3rdParty/hmm/hmm/README.md",
-			"settings":
-			{
-				"buffer_size": 3601,
+				"buffer_size": 634,
 				"line_ending": "Unix"
 			}
 		},
@@ -475,18 +531,39 @@
 			"file": "Celebroid.js",
 			"settings":
 			{
-				"buffer_size": 5527,
+				"buffer_size": 5731,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "//-------------------------------------------------\n//  Mentor\n//  Developed & managed by StarColon Projects\n//  Aimed to be utilized with [node.js] app\n//  EST: Janurary 2015\n//      http://starcolon.com/\n//-------------------------------------------------\n// Hidden Markov Model based lesson learner engine\n\n/*\n	lessons : {\n		labels: [label1, label2, ...],\n		states: [\n			{\n				state: state123,\n				p: 0.00000000001,\n				trans: { nextstate123: 0.00000001, nextstate345: 0.0000001 },\n				obs: { label1: 0.0001, label2, 0.000003 }\n			},\n			{\n				state: state345,\n				p: 0.00000000001,\n				trans: { nextstate123: 0.00000001, nextstate345: 0.0000001 },\n				obs: { label2: 1.00000000 }\n			},\n			...\n		]\n	}\n*/\n\nvar stateSchema = {\n	state: String,\n	p: Number,\n	trans: {},\n	obs: {}\n};\n\n\n// DESIGN NODE: Always use fluent interface\n/*\n	.clear()								==> Clear the memorized lessons\n	.setLabels([labels])					==> Set labels\n	.setState({state,p})					==> Set state with initial probability\n	.setTransition({from,to,p})				==> Set state transition probability\n	.setEmission(state,{label,p})			==> Set emission probability\n	.showLessons()							==> Display the lessons object\n	.verifyLessons(callbackEach)			==> Verify if the sum of probabilties of each state & label look alright\n	.predictLabel([labels])					==> Predict what's the next label\n	.save()									==> Save the lessons to the database\n	.testHMM()								==> DEBUG PURPOSE: Test the HMM\n*/\n\nconst _MONGO_RESERVED_KEYS = ['_parent','_atomics','_path','validators','_schema'];\nconst _MENTOR_RESERVED_KEY = '__m';\nvar smartArray = require('./smart-array.js');\n\n// Custom exception types\nvar BreakException = function(){};\n\n// Utility functions --------------\nvar equal = function(a,b){ return parseFloat(a.toFixed(2))==parseFloat(b.toFixed(2))}\n\n\nmentor = function(dbName,collectionName){\n	this.mongo = require('mongodb');\n	this.mongoose = require('mongoose');\n	this.hmm = require('./hmm/hmm.js');\n\n	// Connect to the database\n	if (typeof(collectionName)=='undefined'){\n		console.error('@Mentor requires a collectionName to continue.');\n		return null;\n	}\n\n\n	// Initialize the data model\n	initDatabase.apply(this,[dbName, collectionName]);\n\n}\n\n\n// ------------------------ mentor property definitions ---------------------------\n\nmentor.prototype.lessons = [];\nmentor.prototype.hidden_markov = {};\n\n\n\n// ------------------------ mentor method definitions -----------------------------\n\nfunction initDatabase(dbName,collectionName) {\n	var self = this;\n	self.mongoose.connect('mongodb://localhost/'+dbName);\n	self.db = self.mongoose.connection;  \n\n	self.db.on('error', console.error.bind(console, '@Mentor fails to connect to mongo:'));\n	self.db.once('open', function() {  \n	    self.lessonSchema = new self.mongoose.Schema({  \n	        labels: [],\n	        states: [new self.mongoose.Schema(stateSchema)] \n	    });  \n	    \n	    // Register the associated data model\n	    self.LessonModel = self.mongoose.model('Lessons', self.lessonSchema, collectionName);  \n\n	    // Now load the record\n	    self.LessonModel.findOne(function(err, lesson){  \n	        if(err) return console.error(err);  \n	        \n	        // Load the lesson to the class memory\n	        console.log('@Mentor is reading the lesson from the DB:');\n	        if (lesson == null) {\n	        	console.log('... No lessons found');\n	        	self.clear();\n	        }\n	        else{\n	        	self.lessons = lesson;\n	        	console.log('@Mentor reads the lessons successfully ❤'.green);\n\n	        	// Create and let the HMM learn from the loaded lessons now\n	        	self.learn();\n	        }\n	    })  \n	  \n	});\n}\n\n\nmentor.prototype.clear = function(){\n	this.lessons = new this.LessonModel();\n	console.log('Flush lessons:');\n	console.log(this.lessons);\n	return this;\n}\n\n\nmentor.prototype.learn = function(){\n	// Convert lessons to the HMM's compatible input raw data\n	var _labels = this.lessons.labels.map(function(lbl){return lbl.toString()});\n	var _states = this.lessons.states.map(function(el){return el.state.toString()});\n	var _finalstate = this.lessons.states[this.lessons.states.length-1].state.toString();\n	var _initialProbs = this.lessons.states.map(function(el){\n		return el.p;\n	});\n\n	var _transitions = {};\n	var _emissions = {};\n\n	// Set the transitions & emissions\n	this.lessons.states.forEach(function(s){\n		var transObj = {};\n		var emissObj = {};\n\n		// Serialize the transition object\n		Object.keys(s.trans).forEach(function(t){\n			if (_MONGO_RESERVED_KEYS.indexOf(t)>-1 || _MENTOR_RESERVED_KEY==t){\n				return;\n			}\n\n			transObj[t.toString()] = s.trans[t.toString()];\n		});\n\n		// Serialize the emission object\n		Object.keys(s.obs).forEach(function(e){\n			if (_MONGO_RESERVED_KEYS.indexOf(e)>-1 || _MENTOR_RESERVED_KEY==e){\n				return;\n			}\n\n			emissObj[e.toString()] = s.obs[e.toString()];\n		})\n\n\n		_transitions[s.state.toString()] = transObj;\n		_emissions[s.state.toString()] = emissObj;\n	});\n\n	// TAOTODO:DEBUG Display HMM construction arguments\n	console.log(_states);\n	console.log(_finalstate);\n	console.log(_labels); \n	console.log(_initialProbs);\n	console.log(_transitions);\n	console.log(_emissions);\n\n	this.hidden_markov = new this.hmm(_states, _finalstate, _labels, _initialProbs, _transitions, _emissions);\n	// this.hidden_markov.print();\n	console.log('Hidden Markov Model now learned from the lessons ❤'.green);\n}\n\n\nmentor.prototype.save = function(){\n	console.log('@Mentor is saving the lessons...'.green);\n	// Save all lessons to the database\n	if (typeof(this.lessons)=='undefined' || this.lessons.length<=0){\n		console.error('@Mentor does not have lessons to save.');\n		return false;\n	}\n\n	this.lessons.save(function(err,lesson){\n		if (err) { console.error(err.toString().red); return false; }\n		else console.dir(lesson);\n		console.log('@Mentor saved the lessons ❤'.green);\n		return true;\n	});\n\n	return true;\n}\n\nmentor.prototype.showLessons = function(){\n	// Display registered labels\n	var result = ['Labels : ' + this.lessons.labels.join(' / ') ];\n\n	// Display registered states\n	this.lessons.states.forEach(function(s){\n		result.push('State : ' + s.state + ' p=' + s.p.toFixed(2));\n		\n		// Transition\n		Object.keys(s.trans).forEach(function(t){\n			if (_MENTOR_RESERVED_KEY==t || _MONGO_RESERVED_KEYS.indexOf(t)>-1){\n				return;\n			}\n\n			result.push('===> trans to ['+t+'] p=' + s.trans[t].toFixed(2));\n		});\n		\n		// Observed as\n		Object.keys(s.obs).forEach(function(ob){\n			if (_MENTOR_RESERVED_KEY==ob || _MONGO_RESERVED_KEYS.indexOf(ob)>-1){\n				return;\n			}\n\n			result.push('~~~> observed as ['+ob+'] p=' + s.obs[ob].toFixed(2));\n		});\n	});\n\n	return result;\n}\n\nmentor.prototype.setState = function(state){\n	// Replace the existing one if any\n	try{\n		var self = this;\n		this.lessons.states.forEach(function(el,i){\n			if (el.state == state.state){\n				// State found, set the initial probability now\n				el.p = state.p;\n				self.lessons.states.set(i, el);\n				throw BreakException;\n			}\n		});\n\n		// No existing state found\n		// Add a fresh new state\n		this.lessons.states.push({\n			state: state.state,\n			p: state.p,\n			trans: {__m:0}, // The reserved key is defined to prevent the object from being undefined\n			obs: {__m:0}\n		});\n	}\n	catch (e){\n		// Break should get trapped into here\n		if (e != BreakException) throw e;\n	}\n}\n\n\nmentor.prototype.setLabels = function(labels){\n	var self = this;\n	labels.forEach(function(el){\n		// Do not register again if already exist\n		if (self.lessons.labels.indexOf(el)<0)\n			self.lessons.labels.push(el);\n	})\n}\n\n\nmentor.prototype.setTransition = function(trans){\n	// The \"From\" state must already exist, otherwise, it won't do anything with the transition records\n	try{\n		if (this.lessons.states.length==0) {\n			console.error('@Mentor found the states is empty. Unable to set the transition.');\n			return this;\n		}\n		var self = this;\n		this.lessons.states.forEach(function(el,i){\n			if (el.state == trans.from){\n				// \"From\" state found\n				// Add a new \"To\" state, this will potentially replace the existing one if any\n				\n				el.trans[trans.to.toString()] = trans.p;\n\n				console.log('--------'.yellow);\n				console.log(el);\n				console.log('--------'.yellow);\n\n				self.lessons.states.set(i, el);\n				throw BreakException;\n			}\n			// \"From\" state not match, proceed to the next element\n		});\n\n		console.error(('State ['+trans.from+'] not found').toString().red);\n	}\n	catch (e){\n		// Break should get trapped into here\n		if (e!==BreakException) throw e;\n	}\n\n	return this;\n}\n\nmentor.prototype.setEmission = function(s,emission){\n	// Replace if already exists\n	try{\n		if (this.lessons.states.length==0){\n			console.error('@Mentor found the states is empty. Unable to set the emission.');\n			return this;\n		}\n		var self = this;\n		this.lessons.states.forEach(function(el,i){\n			if (el.state == s){\n\n				console.log('--------'.yellow);\n				console.log(el);\n				console.log('--------'.yellow);\n\n				// \"From\" state found \n				// Add an observation\n				el.obs[emission.label.toString()] = emission.p;\n				self.lessons.states.set(i, el);\n				throw BreakException;\n			}\n		});\n\n		console.error(('State ['+s+'] not found').toString().red);\n	}\n	catch (e){\n		// Break should get trapped into here\n		if (e!==BreakException) throw e;\n	}\n\n	return this;\n}\n\n\nmentor.prototype.verifyLessons = function(callbackEach){\n	if (typeof(callbackEach)!='function'){\n		callbackEach = console.log;\n	}\n\n	var self = this;\n	var result = true;\n\n	// State check\n	var sumStateProb = 0.0;\n	self.lessons.states.forEach(function(s){\n		sumStateProb += s.p;\n\n		// Check sum of state transition\n		var sumOfTrans = 0.0;\n		if (typeof(s.trans)=='undefined'){\n			callbackEach.apply(this,[('['+ s + '] has no transitions')]);\n			result &= 0;\n			return;\n		}\n\n		Object.keys(s.trans).forEach(function(t){\n\n			// Skip mongo reserved terms\n			if (_MONGO_RESERVED_KEYS.indexOf(t)>-1 || _MENTOR_RESERVED_KEY==t){\n				return;\n			}\n\n			// Destination state exists?\n			if (self.lessons.states.filter(function(r){return r.state==t}).length<=0){\n				callbackEach.apply(this,['Transition from ['+s.state+'] ==> ['+t+'] not valid']);\n				result &= 0;\n			}\n			else{\n				sumOfTrans += s.trans[t];\n			}\n		});\n\n		if (!equal(sumOfTrans,1.0) && !equal(sumOfTrans,0.0)){\n			callbackEach.apply(self,['Total sum of transition prob from ['+s.state+'] not equal to 0 or 1 (got '+sumOfTrans.toFixed(2)+')']);\n			result &= 0;\n		}\n\n		// Check state observation (HMM's emissions)\n		var sumOfObs = 0.0;\n		if (typeof(s.obs)=='undefined'){\n			callbackEach.apply(self,['['+s.state+'] has no observations defined']);\n			result &= 0;\n			return;\n		}\n\n		Object.keys(s.obs).forEach(function(ob){\n\n			// Skip mongo reserved terms\n			if (_MONGO_RESERVED_KEYS.indexOf(ob)>-1 || _MENTOR_RESERVED_KEY==ob){\n				return;\n			}\n			// Destination label exists?\n			if (self.lessons.labels.indexOf(ob)<=-1){\n				callbackEach.apply(this,['['+s.state+'] cannot be observed as ['+ob+']']);\n				result &= 0;\n			}\n			else{\n				sumOfObs += s.obs[ob];\n			}\n		});\n\n		if (!equal(sumOfObs,1.0) && !equal(sumOfObs,0.0)){\n			callbackEach.apply(this,['Total sum of the emission prob of [' +s.state +'] not equal to 0 or 1 (got '+sumOfObs.toFixed(2)+')']);\n		}\n	});\n\n	if (sumStateProb!=1.0){\n		callbackEach.apply(this,['Total sum of initial state prob not equal 1 (got '+sumStateProb.toFixed(2)+')']);\n		result &= 0;\n	}\n\n\n\n	return result;\n}\nAZAQ\nmentor.prototype.predictLabel = function(chain){\n	if (chain.length==0) {\n		console.error('@Mentor needs a non-empty chain of labels to predict'.red);\n		return [];\n	}\n\n	if (this.hidden_markov==null || this.hidden_markov.length==0){\n		console.error('@Mentor needs to compose the hidden Markov model first to continue');\n		return [];\n	}\n\n	console.log('Predict chain: ' + chain.join(' ==> '));\n	var confident = this.hidden_markov.viterbiApproximation(chain);\n	var resultPath = this.hidden_markov.optimalStateSequence(chain);\n	console.log('Prediction confidence : ' + confident);\n\n	return resultPath;\n}\n\nmentor.prototype.testHMM = function(){\n	var _model = new this.hmm(\n		['red','yellow','green'],		// States\n		'green',						// Final state\n		['go','stop'],					// Observation symbols (emissions)\n		{'red':0.8,'green':0.2},		// Initial state probabilities\n		{								// State transitions\n			'go':{'go':0.3,'stop':0.7},\n			'stop':{'stop':0.8,'go':0.2}\n		},\n		{								// State emissions\n			'red':{'stop':0.9,'go':0.1},\n			'yellow':{'stop':0.5,'go':0.5},\n			'green':{'go':1}\n		}\n	);\n\n	var testSequence = ['go','stop','go'];\n\n	// Probability of states \n	console.log('Generation prob: '+_model.generationProbability(testSequence));\n\n	// Viterbi sequence\n	console.log('Viterbi path: '+_model.optimalStateSequence(testSequence).join(' => '));\n\n	resp.send('see the console');\n\n}\n\n\n// Export the module for Node.js use\nexports.mentor = mentor;",
-			"file": "lib/mentor.js",
-			"file_size": 12747,
-			"file_write_time": 1423307780000000,
+			"file": "test/test.js",
 			"settings":
 			{
-				"buffer_size": 12745,
+				"buffer_size": 5902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/soothsayer.js",
+			"settings":
+			{
+				"buffer_size": 802,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/graph.js",
+			"settings":
+			{
+				"buffer_size": 2728,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/mentor.js",
+			"settings":
+			{
+				"buffer_size": 14093,
 				"line_ending": "Unix"
 			}
 		},
@@ -532,6 +609,17 @@
 	},
 	"file_history":
 	[
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/.travis.yml",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/README.md",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/.git/COMMIT_EDITMSG",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/.git/MERGE_MSG",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/travis.yml",
+		"/Users/pataoengineer/Sites/3rdParty/bayesjs/bayes.js/bayes.js",
+		"/Users/pataoengineer/Sites/StarColon/Site/planet/Web.config.bak",
+		"/Users/pataoengineer/Sites/StarColon/Site/planet/Web.config",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/mentor.test.js",
+		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/node_modules/hmm/lib/hmm.js",
+		"/Users/pataoengineer/Sites/3rdParty/hmm/hmm/README.md",
 		"/Users/pataoengineer/Sites/3rdParty/hmm/hmm/Makefile",
 		"/Users/pataoengineer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/pataoengineer/Sites/MyToyStore/Celebroid/.gitignore",
@@ -563,6 +651,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -570,6 +659,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"defending",
+			"dominating",
+			".like",
+			"predictLabel",
+			".learn",
+			"learn",
+			"compile",
+			".settransi",
+			".setstate",
+			".setlabel",
+			".setstate",
+			"setlabel",
+			"_mentor",
+			".setlabel",
+			"showless",
+			"initDatabase",
+			"LessonModel",
+			".learn",
+			"mymentor",
+			"predictlabe",
+			".setstat",
+			".learn",
+			"learnhmm",
+			"haskey",
 			".learn",
 			"learn",
 			".learn",
@@ -609,6 +722,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"defensive",
+			"dominant",
+			"predictFromLabels",
+			"this",
 			"equal",
 			"rotateRight",
 			"",
@@ -629,7 +746,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -637,15 +754,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 458,
+						"buffer_size": 634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								201,
+								201
 							]
 						],
 						"settings":
@@ -661,72 +778,99 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/pataoengineer/Sites/3rdParty/hmm/hmm/README.md",
+					"file": "Celebroid.js",
 					"settings":
 					{
-						"buffer_size": 3601,
+						"buffer_size": 5731,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3377,
-								3377
+								710,
+								710
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1685.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Celebroid.js",
+					"file": "test/test.js",
 					"settings":
 					{
-						"buffer_size": 5527,
+						"buffer_size": 5902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3143,
-								3143
+								2139,
+								2139
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2668.0,
+						"translation.y": 1353.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "lib/mentor.js",
+					"file": "lib/soothsayer.js",
 					"settings":
 					{
-						"buffer_size": 12745,
+						"buffer_size": 802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6118,
-								6118
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/graph.js",
+					"settings":
+					{
+						"buffer_size": 2728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1347,
+								1347
 							]
 						],
 						"settings":
@@ -735,13 +879,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3448.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
+					"file": "lib/mentor.js",
+					"settings":
+					{
+						"buffer_size": 14093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9957,
+								9957
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "lib/smart-array.js",
 					"settings":
 					{
@@ -752,8 +923,8 @@
 						"selection":
 						[
 							[
-								546,
-								546
+								317,
+								317
 							]
 						],
 						"settings":
@@ -762,13 +933,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 317.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "html/quick-guide.jade",
 					"settings":
 					{
@@ -779,8 +950,8 @@
 						"selection":
 						[
 							[
-								865,
-								865
+								244,
+								244
 							]
 						],
 						"settings":
@@ -790,7 +961,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 64.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
