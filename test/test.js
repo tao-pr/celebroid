@@ -1,5 +1,6 @@
 
 var assert = require('assert');
+var colors = require('colors');
 
 
 // COMMON TEST HELPER FUNCTIONS ==================================
@@ -14,17 +15,19 @@ describe('@MENTOR TEST', function(){
   var mentor = require('../lib/mentor.js');
   var _mentor = {};
   before(function(done){
-    _mentor = new mentor.mentor('test','celebroid_test',done);
+      _mentor = new mentor.mentor('test','celebroid_test',done);
   });
 
   describe('After Mentor creation',function(){
     it('should have lessons object initialized',function(done){
-      assert.equal('object', typeof(_mentor.lessons.states));
-      assert.equal('object',typeof(_mentor.lessons.labels))
+      assert.equal('object',typeof(_mentor.lessons));
+      //assert.equal('object', typeof(_mentor.lessons.states));
+      //assert.equal('object',typeof(_mentor.lessons.labels));
       done();
     });
 
-    it('should have [LessonModel] defined',function(done){
+    /* DEPRECATED */
+    it.skip('should have [LessonModel] defined',function(done){
       var hasLessonModel = hasProperty.apply(_mentor,['LessonModel']);
       assert.equal(true, hasLessonModel);
       done();

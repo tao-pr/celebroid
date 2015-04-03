@@ -44,8 +44,8 @@ var mentor = require('./lib/mentor.js');
 		console.log(('      '+appName.toUpperCase()+' starts!').toString().cyan );
 		console.log('      listening carefully at:'.cyan + (host + ':' + port).toString().green );
 		console.log('****************************************************'.cyan);
-		console.log('   arguments = '.cyan + getArgs().yellow);
 		console.log('');
+
 	});
 
 })({
@@ -219,8 +219,7 @@ function httpPredict(req,resp,next){
 
 function httpLsLesson(req,resp,next){
 	// Print out the lesson
-	var output = myMentor.showLessons().join('<br/>');
-	resp.send(output);
+	resp.send(myMentor.showLessons());
 }
 
 function httpTest(req,resp,next){
